@@ -1,1 +1,159 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> NYC Connector</title>
+        <style type="text/css">
+        
+        html {
+            background-color:lemonchiffon;
+        }
+        header {
+            background-color: goldenrod;
+            padding: 0px 10px;
+            box-sizing: border-box;
+        }
+
+
+        header, body {
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: white;
+            margin: 5px 0;
+            padding: 0;
+            font-size: 60px
+        }
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float:right;
+            margin-right: 525px;
+            font-size: 30px;
+            
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            display: inline-block;
+            color: white;
+            margin-left: 20px;
+        }
+        div.text {
+            height: 10%;
+            width: 75%;
+            margin: auto;
+            text-align: left;
+            }
+        p.heading {
+            height:10%;
+            width: 75%;
+            text-align: left;
+            font-size: 60px;
+            margin: auto;
+        }
+
+        p.saying {
+            font-size: 40px;
+        }
+
+        p.sent1, p.sent2 {
+            font-size: 25px;
+            line-height: 1.4em;
+            letter-spacing: .1em;
+        }
+
+        p.saying, p.heading {
+            margin: 0;
+            padding: 0;
+        }
+
+        div.imageoptions {
+            height:50%;
+            width: 75%;
+            font-size: 60px;
+            margin: auto;
+            text-align: center;
+        }
+
+        img.foodpantry, img.clothingshelter, img.homelessshelter, img.seniorcenter, img.snapcenter, img.soupkitchen, img.foodscrapdropoffcenter  {
+            width: 115px;
+            height: 115px;
+        }
+        
+        div.address_bar {
+            height: 50%;
+            width: 75%;
+            font-size: 22px;
+            margin: auto;
+            text-align: center;
+            font-weight:bolder;
+        }
+        div.map {
+            height:50%;
+            width: 75%;
+            font-size: 60px;
+            margin: auto; 
+        }
+        img.googlemaps {
+            height: 50%;
+            width: 100%;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="left">
+                <h1>
+                    <img src="images/logo1.png" alt "logo" />
+                </h1>
+            </div>
+            <div class="right">
+                <ul>
+                <li><a href="#gmaps">map</a></li>
+                <li>mission</li>
+                <li>contact</li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </header>
+        <div class="text">
+            <p class="heading">
+                <str>NYC Connector</str></p>
+            <p class="saying">
+                <em>Connecting individuals and resources!</em></p>
+            <p class="sent1">
+                To find food and shelter resources near you, select the appropriate boxes and enter your zip code. You will be matched based on your location, but please be aware that other resources exist.</p>
+            <p class="sent2">
+                To find <str>additional resources</str>, type in a different zip code or leave the box blank. Use the zoom feature of the map to view resources in your area.</p>
+        </div>
+        <div class="imageoptions">
+                <img src="images/soupkitchen.gif" class="soupkitchen" alt "Soup Kitchen" />
+                <img src="images/seniorcenter.gif" class="seniorcenter" alt "Senior Center" />
+                <img src="images/homelessshelter.gif" class="homelessshelter" alt "Homeless Shelter" />
+                <img src="images/snapcenter.gif" class="snapcenter" alt "Snap Center" />
+                <img src="images/clothingshelter.gif" class="clothingshelter" alt "Clothing Shelter" />
+                <img src="images/foodpantry.gif" class="foodpantry" alt "Food Pantry" />
+                <img src="images/foodscrapdropoffcenter.gif" class="foodscrapdropoffcenter" alt "Soup Kitchen" />
+        </div>
+        <div class="address_bar">
+            <div><p></p><str>Address/Zip Code: _______________________</str></p>
+        </div>
+        <div class="map">
+            <img id="gmaps" src="images/gmaps.jpeg" class="googlemaps" alt "Maps" />
+        </div>
+        
+
+    
+    </body>
+</html>
