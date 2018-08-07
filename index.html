@@ -10,22 +10,10 @@
 	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <style type="text/css">
-        html, body {
-     font-family: 'Roboto', 'PT-Sans', sans-serif;
-     max-width: 100%;
-     overflow-x: hidden;
-}
-.jumbotron {
-     margin-bottom: 0;
-     top:0;
-     left:0;
-     height: 500px;
-}
-    </style>
+    <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg fixed-top navbar-light pl-5" id="main_nav" style="">
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light pl-5" id="main_nav">
 		<a class="navbar-brand" href="">Coding4Impact</a><br>
 		<br>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,11 +30,21 @@
 			</ul>
 		</div>
 	</nav>
-    <div class="jumbotron jumbotron-fluid mt-5">
-        <div class="container">
-            <h1 class="display-4">Coding4Impact - Site Under Construction</h1>
+    <div class="jumbotron jumbotron-fluid mt-5" id="info_jumbotron">
+        <div id="nyc_background" class="pt-5">
+		<div class="container mt-5" id="info_text">
+			<h1 class="display-4 text-center">Coding4Impact</h1>
+			<h3 class="text-center"><em>Site under construction</em></h3><br>
+			<p class="lead" style="font-weight: 300;"><span class="font-weight-bold">Coding4Impact</span> is a student-led club at Hunter College High School, with the goal of developing software and web applications that positively impact the world.
+			<br>
+			</p><br>
+			<br>
+			<br>
+			<br>
+			<!--<button type="button" class="btn btn-success">See the code</button>-->
+		</div>
         </div>
-    </div>
+	</div>
     <div class="jumbotron jumbotron-fluid" style="height: 600px;">
     </div>
 </body>
